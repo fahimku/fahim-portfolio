@@ -27,7 +27,14 @@ const Projects = () => {
       link: 'https://www.ormelive.com/',
       github: '',
       category: 'web',
-      tech: ['React.js', 'Next.js', 'Amazon IVS', 'Socket.IO', 'Shopify', 'Magento']
+      tech: ['React.js', 'Next.js', 'Amazon IVS', 'Socket.IO', 
+        'Shopify', 'Magento', "SEO", 'HTML5', 'CSS3',
+        'JavaScript', 'jQuery', 'WordPress', 'PHP', 'MySQL', 
+        'REST APIs', 'Webhooks', 'Integrations', 'SEO', 
+        'Analytics', 'Performance Optimization', 
+        'Security', 'Testing', 'Debugging', 'CI/CD', 
+        'Git', 'GitHub', 'Bitbucket', 
+        'ClickUp', 'JIRA', 'Sass/SCSS', ]
     },
     {
       id: 3,
@@ -57,10 +64,17 @@ const Projects = () => {
       description: 'Real-time audio/video calling application built with Agora SDK. Features high-quality video calls, screen sharing, and group calling capabilities.',
       image: 'https://blog.flutterflow.io/content/images/2023/05/agora_web_view_2.png',
       fallbackImage: 'https://via.placeholder.com/800x600/147efb/ffffff?text=Agora+Video+Calling',
-      link: '',
+      link: 'https://tabebek.com/',
       github: '',
       category: 'web',
-      tech: ['React.js', 'Agora SDK', 'Socket.IO', 'WebRTC']
+      tech: ['React.js', 'Agora SDK', 'Socket.IO', 'WebRTC', 
+        'HTML5', 'CSS3', 'JavaScript', 'jQuery', 
+        'WordPress', 'PHP', 'MySQL', 'REST APIs', 
+        'Webhooks', 'Integrations', 'SEO', 
+        'Analytics', 'Performance Optimization', 
+        'Security', 'Testing', 'Debugging', 
+        'CI/CD', 'Git', 'GitHub', 'Bitbucket', 
+        'ClickUp', 'JIRA', 'Sass/SCSS']
     },
     {
       id: 6,
