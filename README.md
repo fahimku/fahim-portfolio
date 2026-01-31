@@ -1,6 +1,6 @@
 # Muhammad Fahim Portfolio
 
-A modern, responsive portfolio website built with React.js, showcasing my skills, experience, and projects as a Front-End Software Engineer.
+A modern, responsive portfolio website built with React.js, showcasing my skills, experience, and projects as a Full Stack Developer.
 
 ## Features
 

@@ -1,13 +1,14 @@
 import { FaLinkedin, FaDownload } from 'react-icons/fa'
 import fahimPic from '../assets/images/fahim-pic.jpg'
+import resumePdf from '../assets/files/Muhammad-Fahim-FullStack-Developer-Resume.pdf'
 import './Home.css'
 
 const Home = () => {
   const handleDownloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement('a')
-    link.href = '/assets/files/Muhammad-Fahim-Resume-Frontend-Developer-Web.pdf'
-    link.download = 'Muhammad-Fahim-Resume-Frontend-Developer-Web.pdf'
+    link.href = resumePdf
+    link.download = 'Muhammad-Fahim-FullStack-Developer-Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -24,12 +25,12 @@ const Home = () => {
                 Muhammad <span>Fahim</span>
               </h1>
               <h2 className="title">
-                I'm a <span className="typing-text">Front-End Software Engineer</span>
+                I'm a <span className="typing-text">Full Stack Developer</span>
               </h2>
               <p className="description">
-                Highly skilled Front-End Software Engineer with 6+ years of experience in developing 
-                responsive, pixel-perfect, and high-performance web applications. Strong expertise in 
-                React.js, Next.js, JavaScript, UI/UX implementation, and performance optimization.
+                Full Stack Developer with 8+ years of experience building responsive, high-performance 
+                web applications. Strong expertise in React.js, Next.js, TypeScript, Node.js, PHP, 
+                WordPress, and API integration. Skilled in UI/UX implementation and end-to-end solutions.
               </p>
               <div className="home-buttons">
                 <a 
@@ -57,7 +58,7 @@ const Home = () => {
         </div>
         <div className="home-stats-section">
           <div className="stat-item" data-aos="fade-up" data-aos-delay="100">
-            <h3>6+</h3>
+            <h3>8+</h3>
             <p>Years Experience</p>
           </div>
           <div className="stat-item" data-aos="fade-up" data-aos-delay="200">

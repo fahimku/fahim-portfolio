@@ -168,7 +168,7 @@ const About = () => {
         <div className="about-card" data-aos="fade-up">
           <div className="about-intro">
             <p>
-              I'm a passionate Front-End Software Engineer with expertise in creating modern, 
+              I'm a passionate Full Stack Developer with expertise in creating modern, 
               responsive web applications. With a strong foundation in React.js, Next.js, 
               TypeScript, and modern CSS frameworks, I specialize in building user-centric 
               experiences that combine beautiful design with optimal performance.
